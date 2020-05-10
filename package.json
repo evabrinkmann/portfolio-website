@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-website",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel -d docs index.html",
+    "build": "parcel build -d docs --public-url=./ index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evabrinkmann/portfolio-website.git"
+  },
+  "author": "Eva Brinkmann <brinkmann.eva@web.de>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/evabrinkmann/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/evabrinkmann/portfolio-website#readme",
+  "dependencies": {
+    "parcel-bundler": "1.12.4"
+  }
+}
