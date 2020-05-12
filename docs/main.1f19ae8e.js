@@ -127,6 +127,11 @@ $(document).ready(function () {
     $('.menu-toggler').removeClass('open');
     $('.top-nav').removeClass('open');
   });
+  $('nav a[href*="#"]').on('click', function () {
+    $('html, body').animate({
+      scrollTop: $($(this).attr('href')).offset().top - 100
+    }, 2000);
+  });
 });
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
