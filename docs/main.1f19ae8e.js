@@ -123,6 +123,10 @@ $(document).ready(function () {
     $(this).toggleClass('open');
     $('.top-nav').toggleClass('open');
   });
+  $('.top-nav .nav-link').on('click', function () {
+    $('.menu-toggler').removeClass('open');
+    $('.top-nav').removeClass('open');
+  });
 });
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
