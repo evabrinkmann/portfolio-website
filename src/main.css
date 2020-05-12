@@ -238,7 +238,7 @@ li {
 
 .profile-img {
   flex: 1;
-  margin-right: 5rem;
+  margin: 5rem;
 }
 
 .about-details {
@@ -515,5 +515,25 @@ input[type='submit']:hover {
 
   .nav-link {
     font-size: 4.5rem;
+  }
+
+  .about .container {
+    flex-direction: column;
+  }
+
+  .about-heading h1 {
+    font-size: 8rem;
+  }
+
+  .section-heading h1 {
+    font-size: 3rem;
+  }
+
+  .about-details .nav-list {
+    flex-direction: initial;
+  }
+
+  .about-details li {
+    margin: 0 2rem;
   }
 }
