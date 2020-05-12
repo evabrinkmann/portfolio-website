@@ -536,4 +536,13 @@ input[type='submit']:hover {
   .about-details li {
     margin: 0 2rem;
   }
+
+  .icon-container {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .icon-container i {
+    font-size: 3rem;
+  }
 }
