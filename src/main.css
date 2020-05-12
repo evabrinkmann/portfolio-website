@@ -18,7 +18,7 @@ body {
 }
 
 section {
-  padding: 6rem;
+  padding: 6rem 0;
 }
 
 a {
@@ -466,6 +466,7 @@ input[type='submit']:hover {
   border-radius: 100%;
   display: flex;
   animation: pulse 2s infinite;
+  cursor: pointer;
 }
 
 .up i {
@@ -487,5 +488,32 @@ input[type='submit']:hover {
   }
   100% {
     box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background: url(img/sitebg2blue.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+
+  .landing-text h1 {
+    font-size: 12rem;
+  }
+
+  .landing-text h6 {
+    font-size: 1.7rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  li {
+    margin: 2rem 0;
+  }
+
+  .nav-link {
+    font-size: 4.5rem;
   }
 }
