@@ -238,7 +238,7 @@ li {
 
 .profile-img {
   flex: 1;
-  margin: 5rem;
+  margin-right: 5rem;
 }
 
 .about-details {
@@ -517,9 +517,9 @@ input[type='submit']:hover {
     font-size: 4.5rem;
   }
 
-  .about .container {
+  /* .about .container {
     flex-direction: column;
-  }
+  } */
 
   .about-heading h1 {
     font-size: 8rem;
