@@ -137,6 +137,10 @@ $(document).ready(function () {
       scrollTop: 0
     }, 2000);
   });
+  AOS.init({
+    easing: 'ease',
+    duration: 1800
+  });
 });
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
